@@ -54,6 +54,22 @@ https://ckan.opendata.swiss/api/3/action/resource_show?
 id=09b51573-ac87-4c2f-b9dd-bdb7d4dc4853
 ```
 
+## Get a list of resources available in csv format
+Use the [package_search](https://docs.ckan.org/en/latest/api/index.html#ckan.logic.action.get.package_search) endpoint.
+
+E.G. [Get all resources available in csv format (globally)](https://ckan.opendata.swiss/api/3/action/package_search?fq=res_format:CSV&rows=10000):
+```
+https://ckan.opendata.swiss/api/3/action/package_search?
+fq=res_format:CSV
+&rows=10000
+```
+E.G. [Get all resources available in csv format of Federal Office of Energy](https://ckan.opendata.swiss/api/3/action/package_search?fq=organization:bundesamt-fur-energie-bfe%20AND%20res_format:CSV&rows=10000):
+```
+https://ckan.opendata.swiss/api/3/action/package_search?
+fq=organization:bundesamt-fur-energie-bfe%20AND%20res_format:CSV
+&rows=10000
+```
+
 ## Get a list of available licenses for datasets
 Use the [license_list](https://docs.ckan.org/en/latest/api/index.html#ckan.logic.action.get.license_list) endpoint.
 ```

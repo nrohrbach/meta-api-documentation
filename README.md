@@ -72,6 +72,8 @@ fq=organization:bundesamt-fur-energie-bfe%20AND%20res_format:CSV
 
 ## Get a list of available licenses for datasets
 Use the [license_list](https://docs.ckan.org/en/latest/api/index.html#ckan.logic.action.get.license_list) endpoint.
+
+E.G. [Get all available licenses](https://ckan.opendata.swiss/api/3/action/license_list):
 ```
 https://ckan.opendata.swiss/api/3/action/license_list
 ```

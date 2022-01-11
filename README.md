@@ -21,6 +21,7 @@ https://ckan.opendata.swiss/api/3/action/package_search?
 fq=organization:(bundesamt-fur-energie-bfe)
 &rows=1000
 ```
+
 ## Get details of a dataset
 Use the [package_show](https://docs.ckan.org/en/latest/api/index.html#ckan.logic.action.get.group_package_show) endpoint. You can use *name* or *id* for the id parameter.
 

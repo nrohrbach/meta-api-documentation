@@ -35,7 +35,7 @@ You can also use the [package_search](https://docs.ckan.org/en/latest/api/index.
 E.G. [Get details of *Statistics on hydropower plants (WASTA)*](https://ckan.opendata.swiss/api/3/action/package_search?fq=name:statistik-der-wasserkraftanlagen-wasta):
 ```
 https://ckan.opendata.swiss/api/3/action/package_search?
-fq=name:statistik-der-wasserkraftanlagen-wasta
+fq=name:statistik-der-wasserkraftanlagen-wasta 
 ```
 
 ## Get details of a resource

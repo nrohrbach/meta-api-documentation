@@ -30,6 +30,14 @@ https://ckan.opendata.swiss/api/3/action/package_show?
 id=statistik-der-wasserkraftanlagen-wasta
 ```
 
+You can also use the [package_search](https://docs.ckan.org/en/latest/api/index.html#ckan.logic.action.get.package_search) endpoint for a more detailed answer.
+
+E.G. [Get details of *Statistics on hydropower plants (WASTA)*](https://ckan.opendata.swiss/api/3/action/package_search?fq=name:statistik-der-wasserkraftanlagen-wasta):
+```
+https://ckan.opendata.swiss/api/3/action/package_search?
+fq=name:statistik-der-wasserkraftanlagen-wasta
+```
+
 ## Get details of a resource
 Use the [resource_show](https://docs.ckan.org/en/latest/api/index.html#ckan.logic.action.get.resource_show) endpoint.
 

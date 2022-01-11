@@ -13,7 +13,13 @@ https://ckan.opendata.swiss/api/3/action/organization_show?
 id=bundesamt-fur-energie-bfe&
 include_datasets=True 
 ```
-
+You can also the [package_search](https://docs.ckan.org/en/latest/api/index.html#ckan.logic.action.get.package_search) endpoint for a more detailed answer.
+E.G [List all datasets of Federal Office of Energy](https://ckan.opendata.swiss/api/3/action/package_search?fq=organization:(bundesamt-fur-energie-bfe)&rows=1000):
+```
+https://ckan.opendata.swiss/api/3/action/package_search?
+fq=organization:(bundesamt-fur-energie-bfe)
+&rows=1000
+```
 ## Get details of a dataset
 Use the [package_show](https://docs.ckan.org/en/latest/api/index.html#ckan.logic.action.get.group_package_show) endpoint. You can use *name* or *id* for the id parameter.
 
